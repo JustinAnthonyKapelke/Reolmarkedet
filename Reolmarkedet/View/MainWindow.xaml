@@ -1,0 +1,145 @@
+﻿<Window x:Class="Reolmarkedet.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Reolmarkedet"
+        mc:Ignorable="d"
+        Title="MainWindow"
+        Height="450"
+        Width="800">
+    <Grid x:Name="Prod">
+        <ListBox x:Name="Listbox"
+                 Grid.Row="0"
+                 ItemsSource="{Binding ProductsVM}"
+                 Margin="80,95,423,106"
+                 RenderTransformOrigin="0.5,0.5">
+            <ListBox.Effect>
+                <DropShadowEffect />
+            </ListBox.Effect>
+            <ListBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform />
+                    <SkewTransform AngleY="-0.42" />
+                    <RotateTransform />
+                    <TranslateTransform Y="-2.931" />
+                </TransformGroup>
+            </ListBox.RenderTransform>
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <Label  Content="" />
+                        <TextBlock>
+                            <TextBlock.Text>
+                                <Binding Path="ProductName"
+                                         StringFormat="   {0}" />
+                            </TextBlock.Text>
+                        </TextBlock>
+                        <TextBlock>
+                            <TextBlock.Text>
+                                <Binding Path="ProductPrice"
+                                         StringFormat=" {0}kr " />
+                            </TextBlock.Text>
+                        </TextBlock>
+                        <TextBlock>
+                            <TextBlock.Text>
+                                <Binding Path="ProductID"
+                                         StringFormat=" ID: {0} " />
+                            </TextBlock.Text>
+                        </TextBlock>
+
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Label Content="Receipt"
+               HorizontalAlignment="Left"
+               Margin="199,50,0,0"
+               VerticalAlignment="Top" />
+        <Button x:Name="Delete_Button"
+                Content="Delete"
+                HorizontalAlignment="Left"
+                Margin="320,378,0,0"
+                VerticalAlignment="Top"
+                Click="Delete_Button_Click"
+                RenderTransformOrigin="0.5,0.5" />
+        <Button x:Name="ScanProduct_Button"
+                Content="Scan Product
+                "
+                HorizontalAlignment="Left"
+                Margin="187,378,0,0"
+                VerticalAlignment="Top"
+                Width="89"
+                Click="ScanProduct_Button_Click" />
+        <TextBox HorizontalAlignment="Left"
+                 Height="0"
+                 Margin="119,372,0,0"
+                 TextWrapping="Wrap"
+                 Text=""
+                 VerticalAlignment="Top"
+                 Width="3" />
+        <TextBox x:Name="ProductID_TextBox"
+                 HorizontalAlignment="Left"
+                 Text="{Binding ProductID}"
+                 Margin="90,382,0,0"
+                 TextWrapping="Wrap"
+                 VerticalAlignment="Top"
+                 Width="60"
+                  />
+        <Label Content="Barcode"
+               HorizontalAlignment="Left"
+               Margin="22,375,0,0"
+               VerticalAlignment="Top" />
+        <Label Content="ShelfOwner Balance"
+               HorizontalAlignment="Left"
+               Margin="538,50,0,0"
+               VerticalAlignment="Top"
+               RenderTransformOrigin="0.459,0.164" />
+        <TextBox x:Name="ShelfOwnerID_TextBox"
+                 HorizontalAlignment="Left"
+                 Margin="523,105,0,0"
+                 TextWrapping="Wrap"                 
+                 VerticalAlignment="Top"
+                 Width="60"
+                 TextChanged="ShelfOwnerID_TextBox_TextChanged" />
+        <TextBox x:Name="ShelfOwnerBalance_TextBox"
+                 HorizontalAlignment="Left"
+                 Margin="706,105,0,0"
+                 TextWrapping="Wrap"                
+                 VerticalAlignment="Top"
+                 Width="60"
+                 Text="{Binding svm.ShelfOwnerBalance, UpdateSourceTrigger=PropertyChanged}"
+                 />
+        <TextBox x:Name="ShelfOwnerName_TextBox"
+                 HorizontalAlignment="Left"
+                 Margin="615,105,0,0"
+                 TextWrapping="Wrap"                 
+                 VerticalAlignment="Top"
+                 Width="60"
+                 Text="{Binding svm.ShelfOwnerName, UpdateSourceTrigger=PropertyChanged}"
+                 TextChanged="ShelfOwnerName_TextBox_TextChanged" />
+        <Label Content="ID"
+               HorizontalAlignment="Left"
+               Margin="534,76,0,0"
+               VerticalAlignment="Top"
+               RenderTransformOrigin="2.636,-1.681" />
+        <Label Content="Name"
+               HorizontalAlignment="Left"
+               Margin="624,79,0,0"
+               VerticalAlignment="Top"
+               RenderTransformOrigin="2.636,-1.681" />
+        <Label Content="Balance"
+               HorizontalAlignment="Left"
+               Margin="706,76,0,0"
+               VerticalAlignment="Top"
+               RenderTransformOrigin="2.636,-1.681" />
+        <Button x:Name="Execute_Button"
+                Content="End Sale"
+                HorizontalAlignment="Left"
+                Margin="630,378,0,0"
+                VerticalAlignment="Top"
+                RenderTransformOrigin="1.016,-0.095"
+                Click="Execute_Button_Click" />
+
+    </Grid>
+</Window>
