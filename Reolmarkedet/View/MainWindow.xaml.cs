@@ -93,26 +93,25 @@ namespace Reolmarkedet
                 int shelfOwnerIDinput = int.Parse(ShelfOwnerID_TextBox.Text);
                 ShelfOwnerViewModel shelfOwnerViewModel = mvm.svm.GetShelfOwnerByID(shelfOwnerIDinput);
 
-                string shelfOwnerName;
                 if (shelfOwnerViewModel != null)
                 {
-                    shelfOwnerName = shelfOwnerViewModel.ShelfOwnerName;
-                    mvm.svm.ShelfOwnerName = shelfOwnerName;
-                    ShelfOwnerName_TextBox.Text = shelfOwnerName;
-                }
+                    mvm.svm.ShelfOwnerName = shelfOwnerViewModel.ShelfOwnerName;
+                    ShelfOwnerName_TextBox.Text = mvm.svm.ShelfOwnerName;
 
+                    // Update the balance property in your ViewModel
+                    mvm.svm.ShelfOwnerBalance = mvm.svm.GetBalance(shelfOwnerIDinput);
+                }
                 else
                 {
                     throw new Exception("No shelfOwner with that ID was found");
                 }
-
             }
-            
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
         }
+
 
 
 
@@ -156,17 +155,33 @@ namespace Reolmarkedet
             {
                 MessageBox.Show("No products in the receipt. Sale cannot be completed.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
+
             }
 
             mvm.UpdateBalance();
+            mvm.ProductsVM.Clear();
             MessageBox.Show("The sale is completed", "Succes");
-            //Lukke det nuværende vindue
-            Window.GetWindow(this).Close();
+
+            // Try to parse shelfOwner ID from the textbox
+            if (int.TryParse(ShelfOwnerID_TextBox.Text, out int shelfOwnerID))
+            {               
+                // Get the balance for the shelf owner
+                double currentBalance = mvm.svm.GetBalance(shelfOwnerID);
+
+                // Update the textbox with the balance
+                ShelfOwnerBalance_TextBox.Text = currentBalance.ToString();                
+            }
+            
+        }
+               
+            
+            
         }
 
-
+      
     }
-}
+
+
 
 
 

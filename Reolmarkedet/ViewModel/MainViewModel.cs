@@ -86,14 +86,7 @@ namespace Reolmarkedet.ViewModel
             }
         }
 
-        //public void DeleteSelectedProduct()
-        //{
-        //    if (SelectedProduct != null)
-        //    {
-        //        ProductsVM.Remove(SelectedProduct);
-        //    }
-        //}
-
+ 
         public event PropertyChangedEventHandler PropertyChanged;
 
         protected void OnPropertyChanged(string propertyName)
@@ -122,7 +115,7 @@ namespace Reolmarkedet.ViewModel
                     }
                 }
 
-                shelfOwner.ShelfOwnerBalance += balance;                                
+                shelfOwner.ShelfOwnerBalance = balance;                                
             }
 
             

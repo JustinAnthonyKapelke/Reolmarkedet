@@ -108,15 +108,15 @@
                  TextWrapping="Wrap"                
                  VerticalAlignment="Top"
                  Width="60"
-                 Text="{Binding svm.ShelfOwnerBalance, UpdateSourceTrigger=PropertyChanged}"
-                 />
+                 Text="{Binding ShelfOwnerBalance}"
+                />
         <TextBox x:Name="ShelfOwnerName_TextBox"
                  HorizontalAlignment="Left"
                  Margin="615,105,0,0"
                  TextWrapping="Wrap"                 
                  VerticalAlignment="Top"
                  Width="60"
-                 Text="{Binding svm.ShelfOwnerName, UpdateSourceTrigger=PropertyChanged}"
+                 Text="{Binding ShelfOwnerName}"
                  TextChanged="ShelfOwnerName_TextBox_TextChanged" />
         <Label Content="ID"
                HorizontalAlignment="Left"

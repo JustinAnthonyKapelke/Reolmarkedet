@@ -2008,11 +2008,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Justin\\Desktop\\Reolmarkedet\\New Reolmarkedet\\Reolmarkedet-Reolmarkedet5\\Reolmarkedet\\Reolmarkedet.csproj",
+      "projectUniqueName": "C:\\Users\\Justin\\Desktop\\Reolmarkedet-Reolmarkedet5\\Reolmarkedet\\Reolmarkedet.csproj",
       "projectName": "Reolmarkedet",
-      "projectPath": "C:\\Users\\Justin\\Desktop\\Reolmarkedet\\New Reolmarkedet\\Reolmarkedet-Reolmarkedet5\\Reolmarkedet\\Reolmarkedet.csproj",
+      "projectPath": "C:\\Users\\Justin\\Desktop\\Reolmarkedet-Reolmarkedet5\\Reolmarkedet\\Reolmarkedet.csproj",
       "packagesPath": "C:\\Users\\Justin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Justin\\Desktop\\Reolmarkedet\\New Reolmarkedet\\Reolmarkedet-Reolmarkedet5\\Reolmarkedet\\obj\\",
+      "outputPath": "C:\\Users\\Justin\\Desktop\\Reolmarkedet-Reolmarkedet5\\Reolmarkedet\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Justin\\AppData\\Roaming\\NuGet\\NuGet.Config",
