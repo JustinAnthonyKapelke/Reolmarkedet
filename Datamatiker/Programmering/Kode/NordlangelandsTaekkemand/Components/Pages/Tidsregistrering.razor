@@ -1,0 +1,32 @@
+﻿@page "/Tidsregistrering"
+@rendermode InteractiveServer
+
+<PageTitle>Tidsregistrering</PageTitle>
+
+<h1>Tidsregistrering</h1>
+<div class="mb-3">
+    <label class="form-label">Dato</label>
+    <InputDate TValue="DateOnly" @bind-Value="date" />
+</div>
+
+<div class="mb-3">
+    <label class="form-label">Antal timer</label>
+    <InputNumber TValue="Double" @bind-Value="amount" Min="0" />
+    <span class="form-text"></span>
+</div>
+
+<div class="mb-3">
+    <button class="btn btn-primary" @onclick="SendData">Indsend data</button>
+    <span class="form-text"></span>
+</div>
+
+@code {
+    //Fields
+    private DateOnly date = DateOnly.FromDateTime(DateTime.Now);
+    private Double amount;
+
+    //Send data
+    private void SendData()
+    {
+    }
+}

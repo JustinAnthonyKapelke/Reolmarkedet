@@ -1,0 +1,97 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\NordlangelandsT\u00E6kkemand\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{84F877F4-4E97-49A9-B944-35DDFA5D7193}|NordlangelandsT\u00E6kkemand.csproj|c:\\users\\justin\\datamatiker\\programmering\\kode\\nordlangelandst\u00E6kkemand\\components\\pages\\tidsregistrering.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84F877F4-4E97-49A9-B944-35DDFA5D7193}|NordlangelandsT\u00E6kkemand.csproj|solutionrelative:components\\pages\\tidsregistrering.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84F877F4-4E97-49A9-B944-35DDFA5D7193}|NordlangelandsT\u00E6kkemand.csproj|c:\\users\\justin\\datamatiker\\programmering\\kode\\nordlangelandst\u00E6kkemand\\components\\pages\\auth.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84F877F4-4E97-49A9-B944-35DDFA5D7193}|NordlangelandsT\u00E6kkemand.csproj|solutionrelative:components\\pages\\auth.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84F877F4-4E97-49A9-B944-35DDFA5D7193}|NordlangelandsT\u00E6kkemand.csproj|c:\\users\\justin\\datamatiker\\programmering\\kode\\nordlangelandst\u00E6kkemand\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84F877F4-4E97-49A9-B944-35DDFA5D7193}|NordlangelandsT\u00E6kkemand.csproj|solutionrelative:components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84F877F4-4E97-49A9-B944-35DDFA5D7193}|NordlangelandsT\u00E6kkemand.csproj|c:\\users\\justin\\datamatiker\\programmering\\kode\\nordlangelandst\u00E6kkemand\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84F877F4-4E97-49A9-B944-35DDFA5D7193}|NordlangelandsT\u00E6kkemand.csproj|solutionrelative:components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Auth.razor",
+              "DocumentMoniker": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\NordlangelandsT\u00E6kkemand\\Components\\Pages\\Auth.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Auth.razor",
+              "ToolTip": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\NordlangelandsT\u00E6kkemand\\Components\\Pages\\Auth.razor",
+              "RelativeToolTip": "Components\\Pages\\Auth.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-17T08:29:12.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\NordlangelandsT\u00E6kkemand\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\NordlangelandsT\u00E6kkemand\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Components\\Layout\\NavMenu.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-17T08:28:57.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\NordlangelandsT\u00E6kkemand\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\NordlangelandsT\u00E6kkemand\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "Components\\Layout\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-17T08:28:56.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Tidsregistrering.razor",
+              "DocumentMoniker": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\NordlangelandsT\u00E6kkemand\\Components\\Pages\\Tidsregistrering.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Tidsregistrering.razor",
+              "ToolTip": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\NordlangelandsT\u00E6kkemand\\Components\\Pages\\Tidsregistrering.razor",
+              "RelativeToolTip": "Components\\Pages\\Tidsregistrering.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-17T08:28:26.791Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\NordlangelandsTækkemand\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\NordlangelandsTækkemand.bundle.scp.css",
+      "PackagePath": "staticwebassets\\NordlangelandsTækkemand.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\NordlangelandsTækkemand\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\NordlangelandsTækkemand\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\NordlangelandsTækkemand\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Justin\\Datamatiker\\Programmering\\Kode\\NordlangelandsTækkemand\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.NordlangelandsTækkemand.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.NordlangelandsTækkemand.props",
+      "PackagePath": "build\\NordlangelandsTækkemand.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.NordlangelandsTækkemand.props",
+      "PackagePath": "buildMultiTargeting\\NordlangelandsTækkemand.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.NordlangelandsTækkemand.props",
+      "PackagePath": "buildTransitive\\NordlangelandsTækkemand.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
